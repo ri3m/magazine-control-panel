@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-image: url('bg.png');
+}
+
+section {
+    background-color: rgb(250, 250, 250);
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(250, 250, 250);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid rosybrown;
+    margin-top: 0;
+}
+
+h1 {
+    color: rosybrown;
+    text-shadow: 1px 1px black;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin-right: -8px;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(249, 194, 190);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,.6);
+}
+
+#navbar li {
+    float: right;
+}
+
+    #navbar li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        #navbar li a:hover {
+            background-color: rgb(250, 212, 211);
+            color: black;
+        }
+
+#login {
+    color: black;
+    text-align: center;
+    padding: 150px;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    box-shadow: 0 2px 5px -2px rgba(0,0,0,.6);
+    width: 10%;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 13%;
+}
+.loginTextbox {
+    margin-top:5px;
+    padding:5px;
+    border:1px solid #ccc ;
+}
+
+.btn {
+    font-family: 'Tajawal', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(249, 194, 190);
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,.6);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:5px;
+}
+
+    .btn:hover {
+        background-color: rgb(250, 212, 211);
+    }
+
+::-webkit-input-placeholder { /* safari chrome ophra */
+    font-family: 'Tajawal', sans-serif;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Tajawal', sans-serif;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Tajawal', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Tajawal', sans-serif;
+}
+
+.button {
+    display: black;
+    padding: 5px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: rgb(249, 194, 190);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,.6);
+}
+
+    .button:hover {
+        background-color: rgb(250, 212, 211);
+    }
+
+    .button:active {
+        background-color: rgb(250, 212, 211);
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+h3 {
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: gray;
+}
+
+.box {
+    width: 25%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+DropDownList {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.GV {
+    font-family: 'Tajawal', sans-serif;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(249, 194, 190);
+    width: 120px;
+    padding: 2px 5px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 2px 3px -1px rgba(0,0,0,.6);
+}
+
+.grdContent {
+    width: 80%;
+    border: solid 2px White;
+    min-width: 80%;
+}
+
+.header {
+    background-color: #ffcccc;
+    font-family: 'Tajawal', sans-serif;
+    color: Black;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.rows {
+    background-color: White;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 14px;
+    color: #000;
+    min-height: 25px;
+    text-align: center;
+    border: none 0px transparent;
+    overflow-x: auto;
+}
+
+    .rows:hover {
+        background-color: #e6e6e6;
+        font-family: 'Tajawal', sans-serif;
+        color: Black;
+        text-align: center;
+    }
+
+.selectedrow {
+    background-color: #ffcccc;
+    font-family: 'Tajawal', sans-serif;
+    color: #ffcccc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/ {
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mygrdContent a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/ {
+    background-color: #000;
+    color: #fff;
+}
+
+.mygrdContent span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/ {
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+
+.pager {
+    background-color: #ffcccc;
+    font-family: 'Tajawal', sans-serif;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+
+.mygrdContent td {
+    padding: 5px;
+}
+
+.mygrdContent th {
+    padding: 5px;
+}
+.hiddencol {
+    display: none;
+}
