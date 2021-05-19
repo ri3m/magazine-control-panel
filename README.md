@@ -1,5 +1,5 @@
 # Magazine Control Panel
-Web application developed as part of the summer training for the Minstry of the National Gaurd by a group of six.
+ASP.NET Web application developed as part of the summer training for the Minstry of the National Gaurd by a group of six.
 **note**: please create sql database (code in MagConPanDB file) and change the connection string Web.config accordingly.
 
 ## Tools Used:
